@@ -13,5 +13,5 @@ spec:
       path: files
       targetRevision: HEAD
     - repoURL: https://github.com/pradyunvalluri/Test-configmap-argocd.git
-      path: Test
+      path: test
       targetRevision: HEAD
