@@ -9,7 +9,8 @@ spec:
     server: https://kubernetes.default.svc
     namespace: default
   sources:
-    - repoURL: https://github.com/pradyunvalluri/Test-configmap-argocd.git
+    #- repoURL: https://github.com/pradyunvalluri/Test-configmap-argocd.git
+    - repoURL: https://github.com/pradyunvalluri/argocd-app-files.git
       path: files
       targetRevision: HEAD
     - repoURL: https://github.com/pradyunvalluri/Test-configmap-argocd.git
